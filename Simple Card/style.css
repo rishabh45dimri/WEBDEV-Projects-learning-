@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Nata+Sans:wght@100..900&display=swap");
+* {
+  font-family: "Nata Sans", sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.377);
+}
+.first {
+  display: inline-block;
+  box-shadow: 5px 5px 15px 5px #888888;
+  width: 400px;
+  height: 650px;
+  border-radius: 20px;
+  margin: 0px 30px;
+}
+img {
+  width: 380px;
+  height: 250px;
+  margin-left: 9px;
+  margin-top: 9px;
+  border-radius: 23px;
+}
+ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+ul :first-child {
+  margin-left: -20px;
+}
+ul :nth-child(2) {
+  margin-left: 30px;
+}
+li {
+  padding-left: 9px;
+  padding-right: 9px;
+  border: 0.5px solid rgba(0, 0, 0, 0.444);
+  border-radius: 10px;
+}
+h1 {
+  color: black;
+}
+main {
+  margin-left: 10px;
+}
+p {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-size: large;
+}
+button {
+  border: 0px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 140px;
+  color: rgb(0, 94, 255);
+  background-color: rgb(213, 233, 255);
+  cursor: pointer;
+}

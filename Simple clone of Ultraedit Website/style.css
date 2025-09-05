@@ -1,0 +1,113 @@
+* {
+  align-items: center;
+  justify-content: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Federant&family=Mozilla+Headline:wght@200..700&family=Nata+Sans:wght@100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+@media only screen and (max-width: 455px) {
+  div .long {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+nav {
+  display: flex;
+  padding: 0px 150px;
+}
+img {
+  height: 70px;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+}
+.one {
+  font-size: 30px;
+  font-family: "Saira", sans-serif;
+}
+.two {
+  margin-top: 0px;
+  padding-left: 20px;
+  font-family: "Nata Sans", sans-serif;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 50px;
+}
+li {
+  padding: 0px 15px;
+  font-family: "Nata Sans", sans-serif;
+}
+.nav {
+  height: 30px;
+  width: 100px;
+  border: 1px solid black;
+  align-items: center;
+  margin-left: 150px;
+  background-color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+main {
+  margin-top: 100px;
+}
+.heading {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Mozilla Headline", sans-serif;
+}
+.sub {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  font-family: "Nata Sans", sans-serif;
+}
+.button2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.main {
+  padding: 15px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: rgb(53, 176, 252);
+  color: white;
+  align-items: center;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px;
+}
+.grid1 {
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.grid1 span:first-child {
+  font-size: 20px;
+  margin: 20px 10px;
+  font-family: "Saira", sans-serif;
+}
+.grid1 span:nth-child(2) {
+  font-size: 15px;
+  margin: 20px 10px;
+  font-family: "Nata Sans", sans-serif;
+}
+.small-button {
+  margin-top: 35px;
+  padding: 10px;
+  background-color: rgb(84, 255, 46);
+  border: 0px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
